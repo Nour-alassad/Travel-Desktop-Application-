@@ -8,7 +8,6 @@ import Navbar from "../src/Components/Navbar/Navbar.jsx";
 const App = () => {
   return (
     <>
-      {/* <h1>hello from app</h1> */}
       <Navbar />
       <Home />
       <Main />

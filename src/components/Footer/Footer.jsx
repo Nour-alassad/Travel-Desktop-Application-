@@ -20,11 +20,9 @@ const Footer = () => {
   return (
     <section className="footer">
       <div className="videoDiv">
-        {/* <video src={video2} loop autoPlay muted typeof="video/mp4"></video> */}
         <div className="videoDiv">
           <video loop autoPlay muted>
             <source src={video2} />
-            متصفحك لا يدعم تشغيل الفيديو.
           </video>
         </div>
       </div>
